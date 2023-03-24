@@ -1,18 +1,7 @@
 #!/usr/bin/python3
-"""class Square that inherits from Rectangle (9-rectangle.py).
-(task based on 10-square.py)."""
-Rectangle = __import__('9-rectangle').Rectangle
+"""function that returns the list of attributes and object"""
 
 
-class Square(Rectangle):
-    """Represent a square."""
-
-    def __init__(self, size):
-        """Initialize a new square.
-
-        Args:
-            size (int): The size of the new square.
-        """
-        self.integer_validator("size", size)
-        super().__init__(size, size)
-        self.__size = size
+def lookup(obj):
+    """Return a list of an object's available attributes."""
+    return (dir(obj))
