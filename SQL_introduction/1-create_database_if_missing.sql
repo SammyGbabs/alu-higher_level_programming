@@ -1,2 +1,2 @@
--- command that creates a database in your MySQL server.
+-- command that creates the database hbtn_0c_0 in your MySQL server.
 CREATE DATABASE
