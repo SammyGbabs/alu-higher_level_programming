@@ -1,5 +1,4 @@
 #!/bin/bash
-
 # check if URL argument is provided
 if [[ $# -eq 0 ]]; then
   echo "Usage: $0 URL"
